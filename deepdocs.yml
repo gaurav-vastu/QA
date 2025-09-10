@@ -1,6 +1,2 @@
-target :
- -url : "https://github.com/gaurav-vastu/QA/main/docs/"
+target_repo : "https://github.com/gaurav-vastu/QA"
 
-reinit : "Sskkkkkkkks"
-ignore : 
-  -"README.md"
