@@ -2,3 +2,4 @@ target :
  -url : "docs/"
 
 reinit : "Sss"
+ignore : README.md
