@@ -1,4 +1,6 @@
 target:
-  -url: docs/
+  - url: "docs/"
 
-reinit : ""
+include:  []
+
+reinit: "a-random-string"
