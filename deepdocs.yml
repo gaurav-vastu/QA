@@ -1,14 +1,4 @@
-project_name: Demo Project
-language: php
+target :
+ -url : "docs/"
 
-# Where docs live
-docs_path: docs/
-readme_path: README.md
-
-# Only run when you trigger it
-update_mode: manual
-update_scope: [readme, api]
-
-# Scan PHP files
-include:
-  - "**/*.php"
+reinit : "Sss"
