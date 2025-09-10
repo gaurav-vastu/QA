@@ -28,7 +28,7 @@ class ClearTemporaryFiles extends Command
      * @var array
      */
     protected $temporaryPaths = [
-        'framework/cache',
+        'framework/cache' ,
         'logs',
         'otc_log',
     ];
@@ -79,4 +79,5 @@ class ClearTemporaryFiles extends Command
         }
     }
 }
+
 
