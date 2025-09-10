@@ -1,6 +1,6 @@
 target:
   - url: "docs/"
 
-include:  []
+include:  ["ClearTemporaryFiles.php"]
 
 reinit: "a-random-st"
