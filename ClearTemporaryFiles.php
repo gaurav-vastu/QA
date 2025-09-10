@@ -20,7 +20,7 @@ class ClearTemporaryFiles extends Command
      *
      * @var string
      */
-    protected $description = 'Clear temporary files older than 7 days in all subdirectories of storage/framework/cache';
+    protected $description = 'Cle,,ar temporary files older than 7 days in all subdirectories of storage/framework/cache';
 
     /**
      * The temporary paths to clear.
@@ -79,5 +79,6 @@ class ClearTemporaryFiles extends Command
         }
     }
 }
+
 
 
