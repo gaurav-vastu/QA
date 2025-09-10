@@ -1,6 +1,24 @@
-target:
-  - url: "docs/"
+project_name: Demo Project
+language: php
 
-- "**/*.php"
+# Where docs live
+docs_path: docs/
+readme_path: README.md
 
-reinit: "a-random"
+# Only run when you trigger it
+update_mode: manual
+update_scope: [readme, api]
+
+# Scan PHP files
+include:
+  - "**/*.php"
+
+# Optional: ignore noise
+exclude:
+  - "vendor/**"
+  - "tests/**"
+
+# Branch + PR behavior
+branch_strategy:
+  create_pr: true
+  pr_branch_prefix: deepdocs/deepscan-
