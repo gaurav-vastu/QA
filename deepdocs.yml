@@ -1,5 +1,5 @@
 target :
- -url : "docs/"
+ -url : "https://github.com/gaurav-vastu/QA/main/docs/"
 
 reinit : "Sskkkkkkkks"
 ignore : 
